@@ -6,13 +6,13 @@ function FaqComp(props) {
   return (
     <div
       className="m-4 p-2 cursor-pointer rounded-md shadow-2xl hover:bg-white w-4/5  transition  delay-150 hover:-translate-y-1 hover:scale-110 duration-300 ... 
-      ease-in bg-white dark:bg-sky-200 "
+      ease-in bg-white dark:bg-sky-200"
       onClick={() => {
         setActive(!active);
       }}
     >
       <div>
-        <span className="flex  px-4 lg:px-8 my-2 items-center w-full">
+        <span className="flex px-4 lg:px-8 my-2 items-center w-full">
           <span className="absolute inline-flex w-6 h-6 sm:w-8 sm:h-8 "></span>
           <span className="flex-shrink-0 relative flex justify-center h-6 w-6 sm:w-8 sm:h-8 rounded-full items-center bg-purple-400 ">
             {props.quesnum}
